@@ -19,7 +19,7 @@ const Todo = ({text}) => {
 
     );
 
-}
+};
 
 
 export default Todo ;
