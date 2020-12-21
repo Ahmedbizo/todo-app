@@ -6,8 +6,8 @@ const TodoList = ({ todos }) => {
 
     return (
 
-        <div classNmae="todo-container">
-        <ul classNmae="todo-list">
+        <div className="todo-container">
+        <ul className="todo-list">
 
           {todos.map (todo =>(
             < Todo key = {todo.id} text={todo.text}  />
